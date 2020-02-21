@@ -1,0 +1,25 @@
+@import "./web_sections/_nav";
+@import "./web_sections/_1header";
+@import "./web_sections/_1mainfirst";
+@import "./web_sections/_1mainsecond";
+@import "./web_sections/_1mainthird";
+@import "./web_sections/_footer";
+@import "./web_sections/_2header";
+@import "./web_sections/_2mainfirst";
+@import "./web_sections/_2mainsecond";
+@import "./web_sections/_3header";
+@import "./web_sections/_3mainfirst";
+@import "./web_sections/_3mainsecond";
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+
+

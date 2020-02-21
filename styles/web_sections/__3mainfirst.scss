@@ -1,0 +1,31 @@
+.join-text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 1em;
+  background: #f1f1f1;
+  flex: 1 1 50%;
+
+  & h2 {
+    font-size: 36px;
+    font-weight: 800;
+    letter-spacing: 0.96px;
+    text-align: center;
+    color: #e32700;
+    margin-top:2em;
+  }
+
+  & p {
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 0.89px;
+    color: #2c4f80;
+    max-width: 500px;
+    align-self: center;
+    margin: 2em 0 2em 0;
+  }
+  @media (min-width: 830px) {
+    margin-right: 5em;
+    margin-left: 5em;
+  }
+}

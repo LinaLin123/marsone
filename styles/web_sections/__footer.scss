@@ -1,0 +1,31 @@
+footer {
+    padding: 40px;
+    text-align: center;
+    background: #2c4f80;
+    color:white;
+    max-width: 100%;
+    padding-top: 5em;
+    padding-bottom: 7em;
+
+    .bottom-text {
+      font-size: 30px;
+      font-weight: bold;
+      letter-spacing: 0.96px;
+      text-align: center;
+    }
+
+    .bottom-paragraf {
+      font-size: 12px;
+      font-weight: normal;
+      letter-spacing: 0.96px;
+      margin-top: 3em;
+    }
+    @media screen and (min-width: 700px) {
+      max-width: 100%;
+    }
+
+    .footer-mars-one {
+      color:#f97c7c;
+    }
+  }
+  
